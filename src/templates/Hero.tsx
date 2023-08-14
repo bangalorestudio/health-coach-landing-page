@@ -1,11 +1,11 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Background } from '../background/Background';
-import { Button } from '../button/Button';
-import { HeroOneButton } from '../hero/HeroOneButton';
-import { Section } from '../layout/Section';
-import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
-import { Logo } from './Logo';
+import { Background } from "../background/Background";
+import { Button } from "../button/Button";
+import { HeroOneButton } from "../hero/HeroOneButton";
+import { Section } from "../layout/Section";
+import { NavbarTwoColumns } from "../navigation/NavbarTwoColumns";
+import { Logo } from "./Logo";
 
 const Hero = () => (
   <Background color="bg-gray-100">
@@ -13,7 +13,14 @@ const Hero = () => (
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <>
+              <img
+                src="/assets/images/stoneridge.png"
+                alt="Stoneridge Logo"
+                width={200}
+                height={200}
+              ></img>
+            </>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -23,13 +30,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The revolutionary AI-powered device\n'}
-            <span className="text-primary-500">for talking to your dog</span>
+            {"Welcome Stoneridge Patients\n"}
+            <span className="text-primary-500">
+              We are so glad you're here.{" "}
+            </span>
           </>
         }
-        description="Wuphf translates your dog's barks into human language, finally bridging the communication gap between you and your furry friend."
+        description="Pledze is an evidence-based lifestyle transformation program designed to help you lose weight, get fit, and feel great."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://forms.gle/5YrzhmAvnmRVpG5YA">
             <a>
               <Button xl>Get Started</Button>
             </a>

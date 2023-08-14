@@ -1,6 +1,6 @@
 export const AppConfig = {
-  site_name: 'Wuphf.ai',
-  title: 'Wuphf.ai',
-  description: 'The revolutionary dog-talking AI',
+  site_name: 'Pledze',
+  title: 'Pledze',
+  description: 'Lifestyle transformation program at Stoneridge',
   locale: 'en',
 };

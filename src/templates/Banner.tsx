@@ -1,16 +1,15 @@
-import Link from 'next/link';
+import Link from "next/link";
 
-import { Button } from '../button/Button';
-import { CTABanner } from '../cta/CTABanner';
-import { Section } from '../layout/Section';
+import { Button } from "../button/Button";
+import { CTABanner } from "../cta/CTABanner";
+import { Section } from "../layout/Section";
 
 const Banner = () => (
   <Section>
     <CTABanner
-      title="Stop sounding so dumb to your dog."
-      subtitle="Start your Free Trial."
+      title="Take the first step today. Invest in your future."
       button={
-        <Link href="https://creativedesignsguru.com/category/nextjs/">
+        <Link href="https://forms.gle/5YrzhmAvnmRVpG5YA">
           <a>
             <Button>Get Started</Button>
           </a>
