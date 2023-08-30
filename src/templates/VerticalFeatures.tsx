@@ -21,7 +21,7 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Tailored Insights at Weekly Check-Ins"
-      description="Through our years of experience, we've found that successful outcomes are heavily influenced by having a high degree of accountability. You'll meet with our in-house nutritional advisor at Stoneridge."
+      description="Through our years of experience, we've found that successful outcomes are heavily influenced by having a high degree of accountability. You'll meet with our in-house nutritional advisor at Stoneridge Medical Group."
       image="/assets/images/checkins.png"
       imageAlt="Weekly Check-Ins"
     />
