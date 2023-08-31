@@ -30,7 +30,7 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Welcome Stone Ridge Family Medicine\n'}
+            {'Welcome Stone Ridge Family Medicine Patients\n'}
             <span className="text-primary-500">
               We are so glad you're here.{' '}
             </span>

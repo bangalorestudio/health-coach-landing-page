@@ -1,6 +1,6 @@
 export const AppConfig = {
   site_name: 'Pledze',
   title: 'Pledze',
-  description: 'Lifestyle transformation program at Stoneridge Family Medicine',
+  description: 'Lifestyle transformation program at Stone Ridge Family Medicine',
   locale: 'en',
 };
