@@ -40,7 +40,7 @@ const Hero = () => (
         button={
           <Link href="https://forms.gle/5YrzhmAvnmRVpG5YA">
             <a>
-              <Button xl>Get Started</Button>
+              <Button xl>Sign up for Info Session</Button>
             </a>
           </Link>
         }
