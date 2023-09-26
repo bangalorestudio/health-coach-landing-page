@@ -4,7 +4,7 @@ import { Banner } from './Banner';
 import { Footer } from './Footer';
 import { Hero } from './Hero';
 import { VerticalFeatures } from './VerticalFeatures';
-import { YouTubePlayer } from './YouTubePlayer';
+import { YouTubePlayer } from './YoutubePlayer';
 
 const Base = () => (
   <div className="antialiased text-gray-600">
